@@ -111,6 +111,12 @@ header{
           .menubar:hover .dropdownmenu{
             display: block;
           }
+         .closeX{
+            font-size: 22px;
+            position: relative;
+            left: 50px;
+            cursor:pointer;
+         }
          
 
 }
