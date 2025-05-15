@@ -55,17 +55,74 @@ header{
     box-shadow: 0px 4px 4px 0px rgb(148, 147, 147);
 }
 
+/* weclome  */
+.welcome{
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+.learn{
+   font-size: 30px;
+   margin-left: 40px;
+}
+.learnpage4{
+  position: relative;
+  bottom: 180px;
+  margin-left: 40px;
+}
+
 
 /* card */
+  .page4 {
+      padding: 120px;
+      position: relative;
+      bottom: 280px;
+    }
 
   .page3 {
       padding: 120px;
+      position: relative;
+      bottom: 100px;
     }
 
     .cardrating{
       color: brown;
       font-size: 16px;
     }
+    .rating{
+      display: flex;
+      gap: 5px;
+      margin-top: 5px;
+    }
+   .boxsell{
+    display: flex;
+    margin-top: 5px;
+    gap: 15px;
+   }
+   .boxsell1{
+    background-color: rgb(38, 0, 255);
+    color: #fff;
+    height: 20px;
+    width: 60px;
+    padding: 4px;
+    border-radius: 6px;
+   }
+.boxsell2{
+   background-color: rgb(138, 202, 169);
+    color: #fff;
+    height: 20px;
+    width: 60px;
+    padding: 4px;
+    border-radius: 6px;
+}
+  .fa-solid{
+    color: rgb(0, 0, 0);
+  }
+
+  .amount{
+    font-size: 15px;
+    margin-top: 5px;
+   }
 
     .card-container-wrapper {
       position: relative;

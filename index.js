@@ -24,6 +24,33 @@ function scrollLeft() {
   }
 
 
+
+
+function scrollLefts() {
+    const container = document.getElementById('scrollCardss');
+    container.scrollBy({
+      left: -300,
+      behavior: 'smooth'
+    });
+  }
+
+  function scrollRights() {
+    const container = document.getElementById('scrollCardss');
+    container.scrollBy({
+      left: 300,
+      behavior: 'smooth'
+    });
+  }
+
+
+
+
+
+
+
+
+
+
   // corsel
 
    const images = document.querySelectorAll('.carousel-images img');
