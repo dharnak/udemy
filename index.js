@@ -23,9 +23,7 @@ function scrollLeft() {
     });
   }
 
-
-
-
+//script for smooth scrolling cards page4
 function scrollLefts() {
     const container = document.getElementById('scrollCardss');
     container.scrollBy({
@@ -41,16 +39,57 @@ function scrollLefts() {
       behavior: 'smooth'
     });
   }
+//script for smooth scrolling cards page5
+function scrollLeftss() {
+    const container = document.getElementById('scrollCardsss');
+    container.scrollBy({
+      left: -300,
+      behavior: 'smooth'
+    });
+  }
 
+  function scrollRightss() {
+    const container = document.getElementById('scrollCardsss');
+    container.scrollBy({
+      left: 300,
+      behavior: 'smooth'
+    });
+  }
 
+  //script for smooth scrolling cards page7
+function scrollLeftsss() {
+    const container = document.getElementById('scrollCardssss');
+    container.scrollBy({
+      left: -300,
+      behavior: 'smooth'
+    });
+  }
 
+  function scrollRightsss() {
+    const container = document.getElementById('scrollCardssss');
+    container.scrollBy({
+      left: 300,
+      behavior: 'smooth'
+    });
+  }
 
+  
+  //script for smooth scrolling cards page8
+function scrollLeftssss() {
+    const container = document.getElementById('scrollCardsssss');
+    container.scrollBy({
+      left: -300,
+      behavior: 'smooth'
+    });
+  }
 
-
-
-
-
-
+  function scrollRightssss() {
+    const container = document.getElementById('scrollCardsssss');
+    container.scrollBy({
+      left: 300,
+      behavior: 'smooth'
+    });
+  }
   // corsel
 
    const images = document.querySelectorAll('.carousel-images img');
