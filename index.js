@@ -1,5 +1,14 @@
 document.getElementById("udemybus").addEventListener("click",function(){
-   window.location.href="login.html";
+   window.location.href="Business.html";
+})
+document.getElementById("techon").addEventListener("click",function(){
+   window.location.href="Techonudemy.html";
+})
+document.getElementById("mylearn").addEventListener("click",function(){
+   window.location.href="mylearn.html";
+})
+document.getElementById("log1click").addEventListener("click",function(){
+   window.location.href="index1.html";
 })
 // menubar closing function
 document.getElementById("closeX").addEventListener("click",function(){

@@ -2,6 +2,12 @@
     margin: 0px;
 }
 
+a{
+  text-decoration: none;
+  color: #fff;
+  padding-top: 5px;
+}
+
 .menubar{
     display: none;
 }
@@ -27,6 +33,7 @@ header{
     gap: 30px;
     position: relative;
     margin-top: 8px;
+    cursor: pointer;
 }
 .headericon{
     gap: 30px;
@@ -54,6 +61,7 @@ header{
     padding-top: 8px;
     box-shadow: 0px 4px 4px 0px rgb(148, 147, 147);
 }
+
 
 /* weclome  */
 .welcome{
@@ -278,6 +286,7 @@ header{
 
     .carousel-images img {
       width: 100%;
+     
       flex-shrink: 0;
     }
 
@@ -319,7 +328,6 @@ header{
     .dot.active {
       background-color: #333;
     }
-
 
 
 
@@ -372,6 +380,8 @@ header{
 .imgbottom{
   width: 100%;
   height: 400px;
+  position: relative;
+  bottom: 400px;
 }
 .battom3{
   background-color: #1e1e28;
@@ -392,11 +402,50 @@ header{
   font-size: 22px;
   
 }
+.bottom4{
+    background-color: #121116;
+  position: relative;
+  top: 1px;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+footer{
+   background-color: #121116;
+  position: relative;
+  top: 1px;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  margin-top: 1px;
+}
 
 
 /* */
 
 @media only screen and (max-width: 600px) {
+         
+
+            .card-container {
+    padding: 40px 16px;     /* pull cards closer to edges */
+    gap: 22px;              /* slightly tighter gap */
+  }
+
+  .card,
+  .imgsize {
+    width: 180px;           /* narrower card */
+  }
+
+  .imgsize {
+    height: 150px;          /* keep aspect pleasant */
+  }
+
+  .card h3 { font-size: 16px; }
+  .card p  { font-size: 13px; }
 
            .headerexplore,
            .headersearch,
@@ -456,6 +505,33 @@ header{
             left: 50px;
             cursor:pointer;
          }
-         
 
+          .page6{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 30px;
+      position: relative;
+      bottom:550px ;
+      gap: 20px;
+      border: 1px solid black;
+      height: 420px;
+      width: 200px;
+      margin-left: 100px;
+      margin-bottom: 100px;
+    }
+    .bestimg{
+      height: 200px;
+      width: 200px;
+      margin-top: 50px;
+    }
+        .carousel {
+      position: relative;
+      max-width: 2000px;
+      height: 300px;
+    }
+     .carousel-images img {
+      width: 100%;
+      height: 260px;
+      flex-shrink: 0;
+    }
 }
