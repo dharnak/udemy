@@ -140,3 +140,12 @@ function scrollLeftssss() {
 
     // Initial render
     updateCarousel();
+
+
+    // cartfunction
+    document.getElementById("carticon").addEventListener("click",function(){
+     document.getElementById("cartid").style.display="block";
+})
+  document.getElementById("cartbut1id").addEventListener("click",function(){
+     document.getElementById("cartid").style.display="none";
+})

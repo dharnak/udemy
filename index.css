@@ -277,6 +277,7 @@ header{
       overflow: hidden;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      
     }
 
     .carousel-images {
@@ -427,6 +428,10 @@ footer{
 
 /* */
 
+
+
+/* */
+
 @media only screen and (max-width: 600px) {
          
 
@@ -535,3 +540,44 @@ footer{
       flex-shrink: 0;
     }
 }
+
+
+
+
+
+.cart {
+  width: 300px;
+  position: fixed;
+  background-color: #a83af1;
+  inset: 0 0 0 auto;
+  z-index: 9999; /* High value to ensure it's on top */
+  display: none;
+  transform: translateX(0px);
+  transition:all 6s;
+}
+.cart h1{
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: white;
+   font: 600;
+   font-size: 50px;
+   font-style: oblique;
+}
+.cartbut{
+  display: flex;
+}
+.cartbut button{
+  height: 60px;
+  position: relative;
+top: 610px;
+width: 160px;
+border: 1px solid rgb(199, 199, 199);
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cartbut2{
+  background-color: rgb(107, 231, 107);
+}
+.cartbut1{
+  background-color: rgb(231, 107, 107);
+}
+
